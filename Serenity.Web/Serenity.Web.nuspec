@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>${id}</id>
+    <version>${version}</version>
+    <authors>${authors}</authors>
+    <owners>${owners}</owners>
+    <title>${title}</title>
+    <description>${description}</description>
+    <language>${language}</language>
+    <iconUrl>${iconUrl}</iconUrl>
+    <licenseUrl>${licenceUrl}</licenseUrl>
+    <projectUrl>${projectUrl}</projectUrl>
+    <copyright>${copyright}</copyright>
+    <tags>${tags}</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="${jsonNetVersion}" />
+      <dependency id="Microsoft.AspNet.Mvc" version="${microsoftAspNetMvcVersion}" />
+      <dependency id="Microsoft.AspNet.Razor" version="${microsoftAspNetRazorVersion}" />
+      <dependency id="Microsoft.AspNet.WebPages" version="${microsoftAspNetWebPagesVersion}" />
+      <dependency id="Microsoft.Web.Infrastructure" version="${microsoftWebInfrastructureVersion}" />
+      <dependency id="Serenity.Core" version="${version}" />
+      <dependency id="Serenity.Data" version="${version}" />
+      <dependency id="Serenity.Data.Entity" version="${version}" />
+      <dependency id="Serenity.Services" version="${version}" />
+      <dependency id="jQuery" version="2.2.0" />
+      <dependency id="jquery.event.drag" version="2.2.0" />
+      <dependency id="jQuery.UI.Combined" version="1.11.4" />
+      <dependency id="jQuery.Validation" version="1.14.0" />
+      <dependency id="bootstrap" version="3.3.6" />
+      <dependency id="toastr" version="2.1.1" />
+      <dependency id="SlickGrid" version="2.2.20140120" />
+      <dependency id="Select2.js" version="3.5.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="${id}.dll" target="lib/${framework}" />
+    <file src="${id}.pdb" target="lib/${framework}" />
+    <file src="..\..\Includes\web.config.transform" target="content\web.config.transform" />
+    <file src="..\..\Includes\Content\**\*.css" target="content\Content" />
+    <file src="..\..\Includes\Content\**\*.png" target="content\Content" />
+    <file src="..\..\Includes\Content\**\*.gif" target="content\Content" />
+    <file src="..\..\Includes\Content\**\*.jpg" target="content\Content" />
+    <file src="..\..\Includes\Fonts\**\*.eot" target="content\fonts" />
+    <file src="..\..\Includes\Fonts\**\*.svg" target="content\fonts" />
+    <file src="..\..\Includes\Fonts\**\*.ttf" target="content\fonts" />
+    <file src="..\..\Includes\Fonts\**\*.woff" target="content\fonts" />
+    <file src="..\..\Includes\Scripts\**\*.js" target="content\Scripts" />
+    <file src="..\..\Includes\Scripts\**\*.json" target="content\Scripts" />
+    <file src="serenity.css" target="content/Content/serenity" />
+    <file src="..\..\Style\images\*.png" target="content/Content/serenity/images" />
+    <file src="..\..\Style\images\*.gif" target="content/Content/serenity/images" />
+    <file src="..\..\Style\images\*.jpg" target="content/Content/serenity/images" />   
+    <file src="..\..\..\Serenity.Script.Core\Resources\mscorlib.js" target="content/Scripts/saltarelle" />
+    <file src="..\..\..\Serenity.Script.Core\Resources\mscorlib.min.js" target="content/Scripts/saltarelle" />
+    <file src="..\..\..\..\packages\Saltarelle.Linq.${saltarelleLinqVersion}\linq.js" target="content/Scripts/saltarelle" />
+    <file src="..\..\..\..\packages\Saltarelle.Linq.${saltarelleLinqVersion}\linq.min.js" target="content/Scripts/saltarelle" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Externals.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Externals.min.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Externals.Slick.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Externals.Slick.min.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Script.Core.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.Core\bin\${configuration}\Serenity.Script.Core.min.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.UI\bin\${configuration}\Serenity.Script.UI.js" target="content/Scripts/serenity" />
+    <file src="..\..\..\Serenity.Script.UI\bin\${configuration}\Serenity.Script.UI.min.js" target="content/Scripts/serenity" />
+  </files>
+</package>
