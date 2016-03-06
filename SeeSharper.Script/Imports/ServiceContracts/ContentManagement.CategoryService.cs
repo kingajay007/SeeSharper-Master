@@ -1,5 +1,4 @@
-﻿
-namespace SeeSharper.ContentManagement
+﻿namespace SeeSharper.ContentManagement
 {
     using jQueryApi;
     using Serenity;
@@ -12,37 +11,37 @@ namespace SeeSharper.ContentManagement
     public partial class CategoryService
     {
         [InlineConstant] public const string BaseUrl = "ContentManagement/Category";
-
+    
         [InlineCode("Q.serviceRequest('ContentManagement/Category/Create', {request}, {onSuccess}, {options})")]
         public static jQueryXmlHttpRequest Create(SaveRequest<CategoryRow> request, Action<SaveResponse> onSuccess, ServiceCallOptions options = null)
         {
             return null;
         }
-
+    
         [InlineCode("Q.serviceRequest('ContentManagement/Category/Update', {request}, {onSuccess}, {options})")]
         public static jQueryXmlHttpRequest Update(SaveRequest<CategoryRow> request, Action<SaveResponse> onSuccess, ServiceCallOptions options = null)
         {
             return null;
         }
- 
+    
         [InlineCode("Q.serviceRequest('ContentManagement/Category/Delete', {request}, {onSuccess}, {options})")]
         public static jQueryXmlHttpRequest Delete(DeleteRequest request, Action<DeleteResponse> onSuccess, ServiceCallOptions options = null)
         {
             return null;
         }
-
+    
         [InlineCode("Q.serviceRequest('ContentManagement/Category/Retrieve', {request}, {onSuccess}, {options})")]
         public static jQueryXmlHttpRequest Retrieve(RetrieveRequest request, Action<RetrieveResponse<CategoryRow>> onSuccess, ServiceCallOptions options = null)
         {
             return null;
         }
-
+    
         [InlineCode("Q.serviceRequest('ContentManagement/Category/List', {request}, {onSuccess}, {options})")]
         public static jQueryXmlHttpRequest List(ListRequest request, Action<ListResponse<CategoryRow>> onSuccess, ServiceCallOptions options = null)
         {
             return null;
         }
-
+    
         [Imported, PreserveMemberCase]
         public static class Methods
         {
@@ -53,4 +52,6 @@ namespace SeeSharper.ContentManagement
             [InlineConstant] public const string List = "ContentManagement/Category/List";
         }
     }
+    
 }
+

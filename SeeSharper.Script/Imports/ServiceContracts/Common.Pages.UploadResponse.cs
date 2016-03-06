@@ -18,6 +18,6 @@ namespace SeeSharper.Common.Pages
         public Int32 Width { get; set; }
         public Int32 Height { get; set; }
     }
-
+    
 }
 

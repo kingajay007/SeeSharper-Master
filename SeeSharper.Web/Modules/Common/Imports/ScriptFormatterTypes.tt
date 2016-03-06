@@ -1,9 +1,9 @@
 ﻿<#@ template debug="false" hostspecific="true" language="C#" #>
 <#@ assembly name="System.Core" #>
-<#@ assembly name="$(SolutionDir)SeeSharper\SeeSharper.Web\bin\Serenity.Core.dll" #>
-<#@ assembly name="$(SolutionDir)SeeSharper\SeeSharper.Web\bin\Serenity.Web.dll" #>
-<#@ assembly name="$(SolutionDir)SeeSharper\SeeSharper.Web\bin\SeeSharper.Web.dll" #>
-<#@ assembly name="$(SolutionDir)SeeSharper\SeeSharper.Web\tools\Mono.Cecil\Mono.Cecil.dll" #>
+<#@ assembly name="$(SolutionDir)SeeSharper.Web\bin\Serenity.Core.dll" #>
+<#@ assembly name="$(SolutionDir)SeeSharper.Web\bin\Serenity.Web.dll" #>
+<#@ assembly name="$(SolutionDir)SeeSharper.Web\bin\SeeSharper.Web.dll" #>
+<#@ assembly name="$(SolutionDir)SeeSharper.Web\tools\Mono.Cecil\Mono.Cecil.dll" #>
 <#@ import namespace="System.IO" #>
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Text" #>

@@ -48,9 +48,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeSharper.Script", "SeeSharper.Script\SeeSharper.Script.csproj", "{A0098374-9055-40BA-9F81-1C73AE7F3670}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeSharper.Web", "SeeSharper.Web\SeeSharper.Web.csproj", "{E298DC33-D240-4585-AC47-775575246780}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A0098374-9055-40BA-9F81-1C73AE7F3670} = {A0098374-9055-40BA-9F81-1C73AE7F3670}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EA4BDDB9-467F-48DE-AC67-C4966B6233C2}"
 EndProject

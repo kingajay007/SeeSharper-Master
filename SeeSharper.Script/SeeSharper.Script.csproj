@@ -372,13 +372,19 @@
     <Compile Include="Administration\UserPermission\UserPermissionDialog.cs" />
     <Compile Include="Northwind\Note\NoteDialog.cs" />
     <Compile Include="BasicSamples\ViewWithoutIDGrid.cs" />
-    <Compile Include="Imports\FormContexts\ContentManagement.CategoryForm.cs" />
+    <Compile Include="Imports\FormContexts\ContentManagement.CategoryForm.cs">
+      <DependentUpon>FormContexts.tt</DependentUpon>
+    </Compile>
     <Compile Include="ContentManagement\Category\CategoryGrid.cs" />
     <Compile Include="ContentManagement\Category\CategoryDialog.cs" />
-    <Compile Include="Imports\FormContexts\ContentManagement.QuestionForm.cs" />
+    <Compile Include="Imports\FormContexts\ContentManagement.QuestionForm.cs">
+      <DependentUpon>FormContexts.tt</DependentUpon>
+    </Compile>
     <Compile Include="ContentManagement\Question\QuestionGrid.cs" />
     <Compile Include="ContentManagement\Question\QuestionDialog.cs" />
-    <Compile Include="Imports\FormContexts\ContentManagement.OptionForm.cs" />
+    <Compile Include="Imports\FormContexts\ContentManagement.OptionForm.cs">
+      <DependentUpon>FormContexts.tt</DependentUpon>
+    </Compile>
     <Compile Include="ContentManagement\Option\OptionGrid.cs" />
     <Compile Include="ContentManagement\Option\OptionDialog.cs" />
   </ItemGroup>

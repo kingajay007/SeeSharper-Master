@@ -17,6 +17,6 @@ namespace SeeSharper.Administration
         public String Submodule { get; set; }
         public List<UserPermissionRow> Permissions { get; set; }
     }
-
+    
 }
 

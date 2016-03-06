@@ -13,6 +13,6 @@ namespace SeeSharper.BasicSamples
     public partial class OrdersByShipperRequest : ServiceRequest
     {
     }
-
+    
 }
 

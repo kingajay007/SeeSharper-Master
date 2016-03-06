@@ -14,6 +14,6 @@ namespace SeeSharper.Membership
     {
         public String Email { get; set; }
     }
-
+    
 }
 

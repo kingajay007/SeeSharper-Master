@@ -15,7 +15,7 @@ namespace SeeSharper.ContentManagement
         [InlineConstant] public const string IdProperty = "Id";
         [InlineConstant] public const string NameProperty = "Query";
         [InlineConstant] public const string LocalTextPrefix = "ContentManagement.Question";
-
+    
         public Int32? Id { get; set; }
         public String Query { get; set; }
         public Int32? CategoryId { get; set; }
@@ -23,7 +23,7 @@ namespace SeeSharper.ContentManagement
         public String CategoryDescription { get; set; }
         public Boolean? CategoryIsActive { get; set; }
         public String CategoryShortName { get; set; }
-
+    
         [Imported, PreserveMemberCase]
         public static class Fields
         {
@@ -36,4 +36,6 @@ namespace SeeSharper.ContentManagement
             [InlineConstant] public const string CategoryShortName = "CategoryShortName";
         }
     }
+    
 }
+

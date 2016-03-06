@@ -13,6 +13,6 @@ namespace SeeSharper.Administration
     public partial class RolePermissionListResponse : ListResponse<String>
     {
     }
-
+    
 }
 

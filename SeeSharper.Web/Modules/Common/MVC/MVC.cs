@@ -102,6 +102,25 @@ namespace MVC
             {
                 public const string DashboardIndex = "~/Modules/Common/Dashboard/DashboardIndex.cshtml";
             }
+
+        }
+
+        public static class ContentManagement
+        {
+            public static class Category
+            {
+                public const string CategoryIndex = "~/Modules/ContentManagement/Category/CategoryIndex.cshtml";
+            }
+
+            public static class Option
+            {
+                public const string OptionIndex = "~/Modules/ContentManagement/Option/OptionIndex.cshtml";
+            }
+
+            public static class Question
+            {
+                public const string QuestionIndex = "~/Modules/ContentManagement/Question/QuestionIndex.cshtml";
+            }
         }
 
         public static class Errors
